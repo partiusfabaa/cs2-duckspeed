@@ -22,7 +22,7 @@ public class DuckSpeed : BasePlugin
                     var movementService = player.PlayerPawn.Value.MovementServices;
                     if (movementService != null)
                     {
-                        //я пойду в магазин | i going shop
+                        //
                         new CCSPlayer_MovementServices(movementService.Handle).DuckSpeed = 6.023437f;
                     }
                 }
